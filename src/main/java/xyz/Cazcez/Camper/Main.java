@@ -8,6 +8,7 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         createConfig();
         Metrics metrics = new Metrics(this , 8170);
+        getCommand("Camper").setExecutor(new Commands(this));
         getServer().getPluginManager().registerEvents(new EventListener(this),this);
     }
 
