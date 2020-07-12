@@ -1,0 +1,5 @@
+config:
+  moneyForBlock: 2 #default is 2
+
+# do not change
+config-version: 1
